@@ -1,0 +1,38 @@
+$(document).ready(function(){
+    $("#login").click(async function(event) {
+        event.preventDefault();
+        if(!$("#inputEmail").val() ||
+            !$("#inputPassword").val() ) {
+            return;
+        }
+
+        var email = $("#inputEmail").val();
+        var pwd = $("#inputPassword").val();
+        const salt1 = "4247a2fc3e1869";
+        const salt2 = "fb247668b10fda";
+        var hash1 = await sha256(pwd + salt1);
+        var hash2 = await sha256(pwd + salt2);
+        if(email == "test@mail.com" && hash1 == "33be6847a8046da22fb247668b10fd1e7bd1916ab6ae86b5ed90ef6a576d6c4b"){
+            window.location.href = "mail_" + hash2.substring(0,4) + ".html";
+        } else {
+            $("#hint")
+                .css("height", "0px")
+                .animate({height: "24px"}, 500);
+        }
+    })
+});
+
+async function sha256(message) {
+    // encode as UTF-8
+    const msgBuffer = new TextEncoder().encode(message);                    
+
+    // hash the message
+    const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+
+    // convert ArrayBuffer to Array
+    const hashArray = Array.from(new Uint8Array(hashBuffer));
+
+    // convert bytes to hex string                  
+    const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+    return hashHex;
+}

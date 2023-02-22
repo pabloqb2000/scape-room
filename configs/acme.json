@@ -1,0 +1,146 @@
+{
+    "title": "ACME",
+    "password_hint": "test",
+    "modes": [
+        {
+            "name": "sent",
+            "mails": [
+                {
+                    "new": "new",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "new",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                }
+            ]
+        },
+        {
+            "name": "favourites",
+            "mails": [
+                
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "new",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                }
+            ]
+        },
+        {
+            "name": "inbox",
+            "mails": [
+                
+                {
+                    "new": "new",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "new",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "new",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                }
+            ]
+        },
+        {
+            "name": "drafts",
+            "mails": [
+                
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                },
+                {
+                    "new": "read",
+                    "title": "Important msg",
+                    "content": "Este mensaje contiene información muy importante.",
+                    "sender": "test@mail.com",
+                    "time": "18:34"
+                }
+            ]
+        },
+        {
+            "name": "trash",
+            "mails": [
+            ]
+        }
+    ]
+}
