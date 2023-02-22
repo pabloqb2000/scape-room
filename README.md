@@ -10,6 +10,8 @@ Y vuelve a la página en la que estabas. 😉
 
 Pero bueno, ya que estás aquí, has demostrado un ingenio extra 🧠. Así que espero poder recompensarte con este meme de regalo 🎁.
 
-Suerte con el resto del scape-room 🍀.
+<img src="https://raw.githubusercontent.com/pabloqb2000/scape-room/main/memes/meme01.png" alt="Meme estudiar mucho" width="300" />
 
-Si aún así te revienta las pelotas que el repo esté en público y que te esté diciendo que no te metas en el código pues puedes meterte en mi perfil, mandarme un correo, te paso mi paypal y me pagas el github premium 😘.
+Suerte con el resto del scape-room 🍀. (Tú que sabes de informática igual puedes encontrar el resto de memes que hay repartidos por el scape-room👀).
+
+Si aún así te revienta las pelotas que el repo esté en público y que te esté diciendo que no te metas en el código pues puedes meterte en mi perfil, mandarme un correo, te paso mi paypal y me pagas el github premium. 😘
