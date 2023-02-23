@@ -46,7 +46,7 @@ for configFileName in files:
 
     for fileName in os.listdir("template"):
         srcFile = os.path.join("template", fileName)
-        if srcFile.split('.')[-1] == "html":            
+        if not os.path.isdir(srcFile) and not fileName.split('.')[-1].lower() in ["png", "jpg", "jpeg"]:            
             with open(srcFile, "r") as f:
                 content = f.read()
 

@@ -1,6 +1,11 @@
 {
     "title": "ACME",
     "password_hint": "test",
+    "mail": "test@mail.com",
+    "password_hash": "33be6847a8046da22fb247668b10fd1e7bd1916ab6ae86b5ed90ef6a576d6c4b",
+    "base_color_1": "#5299bf",
+    "base_color_2": "#427a99",
+    "base_color_3": "#315c73",
     "modes": [
         {
             "name": "sent",

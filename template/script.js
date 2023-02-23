@@ -12,7 +12,18 @@ $(document).ready(function(){
         const salt2 = "fb247668b10fda";
         var hash1 = await sha256(pwd + salt1);
         var hash2 = await sha256(pwd + salt2);
-        if(email == "test@mail.com" && hash1 == "33be6847a8046da22fb247668b10fd1e7bd1916ab6ae86b5ed90ef6a576d6c4b"){
+
+        /**
+         * Eh listillx!
+         * ¿Qué te pensabas?
+         * Efectivamente, no tengo lana para pagar un backend para el scape-room.
+         * Espero poder retenerte con esta chapuza de hashes y que sigas el scape-room
+         * por la vía normal.
+         * Ya que has demostrado un extra de ingenio, te dejo un meme de regalo:
+         * https://raw.githubusercontent.com/pabloqb2000/scape-room/main/memes/meme02.png
+         * Mándame un correo si quieres mi paypal para pagarme un backend ;)
+         */
+        if(email == "{{mail}}" && hash1 == "{{password_hash}}"){
             window.location.href = "mail_" + hash2.substring(0,4) + ".html";
         } else {
             $("#hint")

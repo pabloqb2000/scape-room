@@ -22,6 +22,8 @@ $(document).on("click",".mail-icon", function () {
 });
 
 $(document).on("click", ".mail", function() {
+    $(this).removeClass("mail-new");
+    $(this).addClass("mail-read");
     $('#email-title').text($(this).attr("title"));
     $('#email-content').text($(this).attr("content"));
     $('#email-sender').text($(this).attr("sender"));
