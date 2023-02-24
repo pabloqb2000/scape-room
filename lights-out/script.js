@@ -1,10 +1,11 @@
 const initBoard = [
-    [0, 1, 0, 0, 0],
-    [1, 0, 0, 0, 1],
     [0, 0, 0, 0, 0],
-    [0, 0, 1, 0, 0],
-    [1, 0, 0, 0, 0]
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0],
+    [0, 0, 0, 0, 0]
 ];
+const shuffle = 100;
 var lights = [];
 $(document).ready(function(){
     for (let i = 0; i < 5; i++) {
@@ -24,7 +25,10 @@ $(document).ready(function(){
         }
         lights.push(line);
     }
-    console.log(lights);
+    
+    for (let i = 0; i < shuffle; i++) {
+        toggle(rndInt(0,5), rndInt(0,5));
+    }
 });
 
 function toggle(x, y) {
@@ -50,4 +54,8 @@ function checkWin() {
         $("#results").removeClass("d-none");
         $("#results").addClass("d-flex");
     }
+}
+
+function rndInt(min, max) {
+    return min + Math.floor(Math.random() * (max-min));
 }
