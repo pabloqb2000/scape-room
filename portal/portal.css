@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;900&display=swap');
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #4d4d52;
+  color: #fff;
+  font-family: 'Comfortaa', Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-size: 16px;
+}
+
+.nav-link {
+    text-align: center;
+    padding: 16px;
+    background-color: #363639;
+    transition-duration: 0.25s;
+    cursor: pointer;
+}
+.nav-link:hover {
+    background-color: #414145;
+}
+.nav-link:active {
+    background-color: #323234;
+}
+.nav-link.active {
+    color: #e1a847;
+}
+.nav-link::after {
+    content:"";
+    background: #e1a847;
+    position: absolute;
+    left: 50%;
+    height: 2px;
+    right: 50%;
+    bottom: 0;
+}
+.nav-link.active::after {
+    left: 0%;
+    right: 0%;
+}
+.nav-1 {
+    border-radius: 0px 12px 0px 0px;
+}
+.nav-2 {
+    border-radius: 12px 0px 0px 0px;
+}
+.text-muted {
+    color: #d2d2d2 !important;
+}
+
+i {
+    color: #e1a847;
+}
+
+.mcard {
+    border-radius: 8px;
+    background-color: #363639;
+}
+.mcard-title {
+    font-size: 1.25rem;
+}

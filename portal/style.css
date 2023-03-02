@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;900&display=swap');
+
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #4d4d52;
+  color: #fff;
+  font-family: 'Comfortaa', Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-size: 16px;
+}
+
+
+/*       ScrollBar 1        */
+.scrollbar1::-webkit-scrollbar {
+  width: 0px;
+}
+
+.scrollbar1::-webkit-scrollbar-track {
+  border-radius: 8px;
+  background-color: none;
+  border: none;
+}
+
+.scrollbar1::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+  background-color: #717171;
+}
+
+.root-img {
+  max-height: 75vh;
+  overflow: hidden;
+}
+
+.root-img img {
+  
+  filter: brightness(60%);
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+.title{
+  transform: translateY(-6rem);
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+@media (max-width:768px) {
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width:576px) {
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+.mcard {
+  background-color: #434347;
+  box-shadow: 4px 4px 16px #232324;
+  border-radius: 8px;
+}
+
+.mcard-img img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+}
+
+.admin-link {
+  height: 0;
+}
+
+.admin-link a {
+  color: inherit !important;
+  text-decoration: none !important;
+  transform: translateY(2rem);
+  z-index: 5;
+  transition-delay: 0.25s;
+}
+
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 10vh 0px;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  transition-duration: 0.25s;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input:focus {
+  outline: none !important;
+  border:1px solid #e1a847;
+  box-shadow: 0 0 4px #e1a847;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary {
+  background-color: #e1a847;
+  border: none !important;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background-color: #ad843c !important;
+}
+.btn-primary:active {
+  background-color: #7e6333 !important;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  width: 36px;
+}
+#hint {
+  height: 0px;
+  overflow: hidden;
+}

@@ -6,6 +6,8 @@ const initBoard = [
     [0, 0, 0, 0, 0]
 ];
 const shuffle = 100;
+
+var interact = true;
 var lights = [];
 $(document).ready(function(){
     for (let i = 0; i < 5; i++) {
@@ -25,13 +27,14 @@ $(document).ready(function(){
         }
         lights.push(line);
     }
-    
+
     for (let i = 0; i < shuffle; i++) {
         toggle(rndInt(0,5), rndInt(0,5));
     }
 });
 
 function toggle(x, y) {
+    if(!interact) return;
     toggleLight(lights[x][y]);
     if(x > 0) toggleLight(lights[x-1][y]);
     if(y > 0) toggleLight(lights[x][y-1]);
@@ -49,11 +52,42 @@ function toggleLight(light) {
 
 function checkWin() {
     if($.grep($(".light"), (l, n) => l.classList.contains("on")).length == 0) {
+        interact = false;
+        winAnim();
+    }
+}
+
+async function winAnim() {
+    for (let t = 0; t < 30; t++) {
+        if(t < 27) {
+            for(x = t%9; x >= 0; x--) {
+                console.log(x);
+                let y = (t%9)-x;
+                if(x < 5 && y < 5) {
+                    toggleLight(lights[x][y]);
+                }
+            }
+        }
+        if(t >= 3) {
+            for(x = (t-3)%9; x >= 0; x--) {
+                let y = ((t-3)%9)-x;
+                if(x < 5 && y < 5) {
+                    toggleLight(lights[x][y]);
+                }
+            }
+        }
+        await new Promise(r => setTimeout(r, 250/4));
+    }
+
+    $("#results").css("opacity", "0");
+    $("#game").animate({opacity: 0}, 500, () => {
         $("#game").removeClass("d-flex");
         $("#game").addClass("d-none");
         $("#results").removeClass("d-none");
         $("#results").addClass("d-flex");
-    }
+        $("#results").animate({opacity: 1}, 500)
+    });
+
 }
 
 function rndInt(min, max) {
