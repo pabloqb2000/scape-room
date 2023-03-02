@@ -31,6 +31,7 @@ body {
     color: #e1a847;
 }
 .nav-link::after {
+    transition-duration: 0.25s;
     content:"";
     background: #e1a847;
     position: absolute;
@@ -40,14 +41,9 @@ body {
     bottom: 0;
 }
 .nav-link.active::after {
+    transition-duration: 0.25s;
     left: 0%;
     right: 0%;
-}
-.nav-1 {
-    border-radius: 0px 12px 0px 0px;
-}
-.nav-2 {
-    border-radius: 12px 0px 0px 0px;
 }
 .text-muted {
     color: #d2d2d2 !important;
@@ -63,4 +59,27 @@ i {
 }
 .mcard-title {
     font-size: 1.25rem;
+}
+
+.cont {
+    position: relative !important;
+}
+
+.mcontent {
+    transition-duration: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.mcontent.mcontent-1.move {
+    transform: translateX(-100vw);
+}
+
+.mcontent.mcontent-2 {
+    transform: translateX(100vw);
+}
+.mcontent.mcontent-2.move {
+    transform: translateX(0) !important;
 }
