@@ -19,23 +19,23 @@ $(document).ready(function(){
          * Efectivamente, no tengo lana para pagar un backend para el scape-room.
          * Espero poder retenerte con esta chapuza de hashes y que sigas el scape-room
          * por la vía normal.
-         * Ya que has demostrado un extra de ingenio te dejo un meme de regalo:
+         * Ya que has demostrado un extra de ingenio, te dejo un meme de regalo:
          * https://raw.githubusercontent.com/pabloqb2000/scape-room/main/memes/meme02.png
          * Mándame un correo si quieres mi paypal para pagarme un backend ;)
          */
-        if(email == "test@mail.com" && hash1 == "33be6847a8046da22fb247668b10fd1e7bd1916ab6ae86b5ed90ef6a576d6c4b"){
+        if(email == "harry@duncan.com" && hash1 == "d7f0331f2083a5a133010bd3576c56b1df0daf277d895309175d2d195ffdea08"){
             window.location.href = "mail_" + hash2.substring(0,4) + ".html";
         } else {
             $("#hint")
                 .css("height", "0px")
-                .animate({height: "24px"}, 500);
+                .animate({height: "40px"}, 500);
         }
     })
 });
 
 async function sha256(message) {
     // encode as UTF-8
-    const msgBuffer = new TextEncoder().encode(message);                    
+    const msgBuffer = new TextEncoder().encode(message.toLowerCase());                    
 
     // hash the message
     const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);

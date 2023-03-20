@@ -2,11 +2,25 @@ import os
 import re
 import json
 import shutil
+import hashlib
+
+def sha256(msg):
+    return hashlib.sha256(msg.encode('utf-8')).hexdigest()
+def cut(txt):
+    if '<br>' in txt:
+        return txt.split('<')[0] + "..."
+    elif len(txt) > 32:
+        return txt[:32] + "..."
+    return txt
 
 def get(dict, variables, key):
     if '.' in key:
         v, k = key.split('.')
+        if k[-3:] == "_sm":
+            return cut(variables[v][k[:-3]])
         return variables[v][k]
+    if key == "password":
+        return sha256(dict[key].lower() + dict["salt_1"])
     return dict[key]
 
 def render(content, data, variables = {}):
@@ -52,5 +66,14 @@ for configFileName in files:
 
             output = render(content, data) 
 
+            if fileName == "mail_inbox.html":
+                fileName = "mail_" + data["mail_token"] + ".html"
+                
             with open(os.path.join(data["title"], fileName), "w+") as f:
                 f.write(output) 
+
+    os.remove(os.path.join(data["title"], "mail_inbox.html"))
+    os.remove(os.path.join(data["title"], "imgs/cover_img.png"))
+    shutil.copyfile(
+        os.path.join("mail-imgs", data["cover_img_name"]), 
+        os.path.join(data["title"], "imgs/"+data["cover_img_name"]))

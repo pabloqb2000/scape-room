@@ -4,7 +4,7 @@ $(document).on("click","#logout", function () {
 });
 
 $(document).on("click",".mail-icon", function () {
-    var list = $(this).attr("title");
+    var list = $(this).attr("id");
     if(list == shownList) return;
     $(".mail-icon").removeClass("fa-2xl primary-text");
     $(".mail-list").css("height", "0px");
@@ -24,9 +24,9 @@ $(document).on("click",".mail-icon", function () {
 $(document).on("click", ".mail", function() {
     $(this).removeClass("mail-new");
     $(this).addClass("mail-read");
-    $('#email-title').text($(this).attr("title"));
-    $('#email-content').text($(this).attr("content"));
-    $('#email-sender').text($(this).attr("sender"));
+    $('#email-title').html($(this).attr("title"));
+    $('#email-content').html($(this).attr("content"));
+    $('#email-sender').html($(this).attr("sender"));
 
     $('#mail-modal').modal();
 });

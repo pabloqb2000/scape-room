@@ -8,8 +8,8 @@ $(document).ready(function(){
 
         var email = $("#inputEmail").val();
         var pwd = $("#inputPassword").val();
-        const salt1 = "{{salt_1}}";
-        const salt2 = "{{salt_2}}";
+        const salt1 = "4247a2fc3e1869";
+        const salt2 = "fb247668b10fda";
         var hash1 = await sha256(pwd + salt1);
         var hash2 = await sha256(pwd + salt2);
 
@@ -23,7 +23,7 @@ $(document).ready(function(){
          * https://raw.githubusercontent.com/pabloqb2000/scape-room/main/memes/meme02.png
          * Mándame un correo si quieres mi paypal para pagarme un backend ;)
          */
-        if(email == "{{mail}}" && hash1 == "{{password}}"){
+        if(email == "emma@modm.com" && hash1 == "0f5e9fd4358861938a9c414d3e9f402ecc1333e6d628316d36905e2b33d435ed"){
             window.location.href = "mail_" + hash2.substring(0,4) + ".html";
         } else {
             $("#hint")

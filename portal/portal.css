@@ -101,10 +101,6 @@ i {
   border:1px solid #e1a847;
   box-shadow: 0 0 4px #e1a847;
 }
-select option:hover {
-  background-color: #e1a847;
-}
-
 
 .btn-primary {
   background-color: #e1a847;

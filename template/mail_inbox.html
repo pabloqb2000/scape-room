@@ -3,7 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" href="./imgs/envelope.png">
+    <link rel="icon" href="./imgs/{{cover_img_name}}">
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="./style.css" rel="stylesheet">
@@ -22,7 +22,7 @@
     <div class="col-12 d-flex flex-column justify-content-between">
         <div>
             <div class="row border-bottom justify-content-between align-items-center py-3">
-                <img class="ml-4" src="./imgs/envelope.png" alt="" width="36" height="36">
+                <img class="ml-4" src="./imgs/{{cover_img_name}}" alt="" width="36" height="36">
                 <h4 class="">{{title}}</h4>
                 <div class="icon mr-4"><i class="fa-solid fa-arrow-right-from-bracket" title="logout" id="logout"></i></div>
             </div>
@@ -30,17 +30,17 @@
                 <div class="row justify-content-center mail-list" id="{{mode.name}}">
                     <div class="col-md-9">
                         @for(mail in mode.mails) {
-                            <div class="mail row mail-new" title="{{mail.title}}"
+                            <div class="mail row mail-{{mail.new}}" title="{{mail.title}}"
                                 content="{{mail.content}}"sender="{{mail.sender}}">
                                 <div class="col-12">                            
                                     <div class="row justify-content-between">
                                         <span class="ml-3">{{mail.sender}}</span>
-                                        <span class="mr-3">{{mail.time}}</span>
+                                        <span class="mx-3 text-muted">{{mail.time}}</span>
                                     </div>
                                     
                                     <div class="row">
                                         <span class="ml-3">{{mail.title}}</span>
-                                        <span class="ml-3 text-muted">{{mail.content}}</span>
+                                        <span class="ml-3 text-muted align-self-center">{{mail.content_sm}}</span>
                                     </div>
                                 </div>
                             </div>
@@ -51,19 +51,19 @@
         </div>
 
         <div class="row border-top justify-content-center align-items-center icon-containter">
-            <div title="sent" class="col-2 mail-icon">
+            <div title="Enviados" id="sent" class="col-2 mail-icon">
                 <i class="fa-regular fa-paper-plane"></i>
             </div>
-            <div title="favourites" class="col-2 mail-icon">
+            <div title="Favoritos" id="favourites" class="col-2 mail-icon">
                 <i class="fa-regular fa-star"></i>
             </div>
-            <div title="inbox" class="col-2 mail-icon fa-2xl primary-text">
+            <div title="Entrada" id="inbox" class="col-2 mail-icon fa-2xl primary-text">
                 <i class="fa-solid fa-inbox"></i>
             </div>
-            <div title="drafts" class="col-2 mail-icon">
+            <div title="Borradores" id="drafts" class="col-2 mail-icon">
                 <i class="fa-regular fa-file"></i>
             </div>
-            <div title="trash" class="col-2 mail-icon">
+            <div title="Eliminados" id="trash" class="col-2 mail-icon">
                 <i class="fa-regular fa-trash-can"></i>
             </div>
         </div>

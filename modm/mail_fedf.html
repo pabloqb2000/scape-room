@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./imgs/orange.svg">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+
+    <title>modm</title>
+
+  </head>
+
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bae53b7d59.js" crossorigin="anonymous"></script>
+    <script src="./mail_script.js"></script>
+
+    <div class="col-12 d-flex flex-column justify-content-between">
+        <div>
+            <div class="row border-bottom justify-content-between align-items-center py-3">
+                <img class="ml-4" src="./imgs/orange.svg" alt="" width="36" height="36">
+                <h4 class="">modm</h4>
+                <div class="icon mr-4"><i class="fa-solid fa-arrow-right-from-bracket" title="logout" id="logout"></i></div>
+            </div>
+            
+                <div class="row justify-content-center mail-list" id="sent">
+                    <div class="col-md-9">
+                        
+                            <div class="mail row mail-read" title="Un juego para Erik"
+                                content="Hola Harry&#128075;, soy Emma<br>estoy súper viciada a un juego y he pensado que igual a vuestro hijo Erik le mola darle un intento. Se llama <a href='https://pabloqb2000.github.io/scape-room/lights-out/' target='_blank'>Lights out</a>, va de apagar todas las luces. Como suelen molarle estas cosas creo que puede pasar un buen rato. Ya me contaréis si le gusta.<br><br>Un abrazo&#129303;<br>Emma"sender="harry@duncan.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">harry@duncan.com</span>
+                                        <span class="mx-3 text-muted">Hace 2 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Un juego para Erik</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Harry&#128075;, soy Emma...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="El portal de la urbanización ya está listo"
+                                content="Buenos días vecinos/as&#128075;<br>La empresa que contratamos ya ha montado el portal de la urbanización&#127881;, podéis verlo <a href='https://pabloqb2000.github.io/scape-room/portal/' traget='_blank'>aquí</a>.<br><br>Espero que os guste, cualquier cosa me decís.<br>Un saludo"sender="vecinos@wallaby42.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">vecinos@wallaby42.com</span>
+                                        <span class="mx-3 text-muted">Hace 10 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">El portal de la urbanización ya está listo</span>
+                                        <span class="ml-3 text-muted align-self-center">Buenos días vecinos/as&#128075;...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+            
+
+                <div class="row justify-content-center mail-list" id="favourites">
+                    <div class="col-md-9">
+                        <div class='col-12 d-flex justify-content-center text-muted my-3'>Sin emails en esta carpeta.</div>
+                    </div>
+                </div>
+            
+
+                <div class="row justify-content-center mail-list" id="inbox">
+                    <div class="col-md-9">
+                        
+                            <div class="mail row mail-new" title="Re: Un juego para Erik"
+                                content="Hola Emma&#128075;<br>Muchas gracias por el juego&#128522; a Erik le ha encantado. Hemos visto que a tí se te da muy bien&#128521;.<br><br>Un abrazo muy fuerte&#129303;<br><hr><p class='text-muted'>Hola Harry&#128075;, soy Emma<br>estoy súper viciada a un juego y he pensado que igual a vuestro hijo Erik le mola darle un intento. Se llama <a href='https://pabloqb2000.github.io/scape-room/lights-out/' target='_blank'>Lights out</a>, va de apagar todas las luces. Como suelen molarle estas cosas creo que puede pasar un buen rato. Ya me contaréis si le gusta.<br><br>Un abrazo&#129303;<br>Emma</p>"sender="harry@duncan.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">harry@duncan.com</span>
+                                        <span class="mx-3 text-muted">Hace 1 día</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Re: Un juego para Erik</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Emma&#128075;...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="El portal de la urbanización ya está listo"
+                                content="Buenos días<br>Le informamos que ya está dado de alta el portal de la urbanización. Puede acceder a él a traves de <a href='https://pabloqb2000.github.io/scape-room/portal/' traget='_blank'>este enlace</a>.<br>El acceso de administración también está listo y puede acceder a él iniciando sesión con este correo (emma@modm.com) y su contraseña.<br><br>Esperamos que el portal le sea útil a usted y al resto de vecionos/as."sender="noreply@system.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">noreply@system.com</span>
+                                        <span class="mx-3 text-muted">Hace 10 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">El portal de la urbanización ya está listo</span>
+                                        <span class="ml-3 text-muted align-self-center">Buenos días...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="He perdido los contactos&#128552;"
+                                content="Hola pituleta,<br>te hablo al correo porque he perdido los contactos en Whatsapp, a ver si puedes volverme a escribir y así te vuelvo a agregar.<br>Pero bueno, ya que estoy aprovecho para pregutnarte qué tal estás jajaja. ¿Qué tal está Skinner con su trabajo en el restaurante?<br>Por ciertooo, estamos pensando en mudarnos de casa, nos gustaría coger una parecida a la vuestra, te parecerá una broma pero siempre nos ha dado envida vuestro ático, es muy acogedor y tiene cosillas que lo hacen muy práctico, como lo de tener una ventana en la cocina o lo de tener bañeraaa, no sabes lo en falta que hecho darme un baño a veces.<br>En fin, a ver sin nos vemos y hablamoos, un besazooo&#128536;<br><br>Tu hermanita."sender="sara@mail.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">sara@mail.com</span>
+                                        <span class="mx-3 text-muted">Hace 15 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">He perdido los contactos&#128552;</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola pituleta,...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+            
+
+                <div class="row justify-content-center mail-list" id="drafts">
+                    <div class="col-md-9">
+                        <div class='col-12 d-flex justify-content-center text-muted my-3'>Sin emails en esta carpeta.</div>
+                    </div>
+                </div>
+            
+
+                <div class="row justify-content-center mail-list" id="trash">
+                    <div class="col-md-9">
+                        <div class='col-12 d-flex justify-content-center text-muted my-3'>Sin emails en esta carpeta.</div>
+                    </div>
+                </div>
+            
+
+        </div>
+
+        <div class="row border-top justify-content-center align-items-center icon-containter">
+            <div title="Enviados" id="sent" class="col-2 mail-icon">
+                <i class="fa-regular fa-paper-plane"></i>
+            </div>
+            <div title="Favoritos" id="favourites" class="col-2 mail-icon">
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <div title="Entrada" id="inbox" class="col-2 mail-icon fa-2xl primary-text">
+                <i class="fa-solid fa-inbox"></i>
+            </div>
+            <div title="Borradores" id="drafts" class="col-2 mail-icon">
+                <i class="fa-regular fa-file"></i>
+            </div>
+            <div title="Eliminados" id="trash" class="col-2 mail-icon">
+                <i class="fa-regular fa-trash-can"></i>
+            </div>
+        </div>
+    </div>  
+
+    <!-- Email modal -->
+    <div class="modal fade" id="mail-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="email-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body py-4" id="email-content"></div>
+            <div class="modal-footer" id="email-sender"></div>
+        </div>
+        </div>
+    </div>
+
+  </body>
+</html>

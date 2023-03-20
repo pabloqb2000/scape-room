@@ -5,7 +5,7 @@ const initBoard = [
     [0, 0, 0, 0, 0],
     [0, 0, 0, 0, 0]
 ];
-const shuffle = 100;
+const shuffle = 50;
 
 var interact = true;
 var lights = [];
@@ -27,20 +27,22 @@ $(document).ready(function(){
         }
         lights.push(line);
     }
-
-    for (let i = 0; i < shuffle; i++) {
-        toggle(rndInt(0,5), rndInt(0,5));
-    }
+    do {
+        for (let i = 0; i < shuffle; i++) {
+            toggle(rndInt(0,5), rndInt(0,5), check_win=false);
+        }
+    } while($.grep($(".light"), (l, n) => l.classList.contains("on")).length < 2);
 });
 
-function toggle(x, y) {
+function toggle(x, y, check_win=true) {
     if(!interact) return;
     toggleLight(lights[x][y]);
     if(x > 0) toggleLight(lights[x-1][y]);
     if(y > 0) toggleLight(lights[x][y-1]);
     if(x < 4) toggleLight(lights[x+1][y]);
     if(y < 4) toggleLight(lights[x][y+1]);
-    checkWin();
+    if(check_win)
+        checkWin();
 }
 
 function toggleLight(light) {

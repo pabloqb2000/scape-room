@@ -1,0 +1,75 @@
+{
+    "title": "modm",
+    "password_hint": "Mi año de nacimiento",
+    "mail": "emma@modm.com",
+    "password": "1992",
+    "salt_1": "4247a2fc3e1869",
+    "salt_2": "fb247668b10fda",
+    "mail_token": "fedf",
+    "cover_img_name": "orange.svg",
+    "base_color_1": "#ffe0b2",
+    "base_color_2": "#fcb64d",
+    "base_color_3": "#f78c1e",
+    "modes": [
+        {
+            "name": "sent",
+            "mails": [
+                {
+                    "new": "read",
+                    "title": "Un juego para Erik",
+                    "content": "Hola Harry&#128075;, soy Emma<br>estoy súper viciada a un juego y he pensado que igual a vuestro hijo Erik le mola darle un intento. Se llama <a href='https://pabloqb2000.github.io/scape-room/lights-out/' target='_blank'>Lights out</a>, va de apagar todas las luces. Como suelen molarle estas cosas creo que puede pasar un buen rato. Ya me contaréis si le gusta.<br><br>Un abrazo&#129303;<br>Emma",
+                    "sender": "harry@duncan.com",
+                    "time": "Hace 2 días"
+                },
+                {
+                    "new": "read",
+                    "title": "El portal de la urbanización ya está listo",
+                    "content": "Buenos días vecinos/as&#128075;<br>La empresa que contratamos ya ha montado el portal de la urbanización&#127881;, podéis verlo <a href='https://pabloqb2000.github.io/scape-room/portal/' traget='_blank'>aquí</a>.<br><br>Espero que os guste, cualquier cosa me decís.<br>Un saludo",
+                    "sender": "vecinos@wallaby42.com",
+                    "time": "Hace 10 días"
+                }
+            ]
+        },
+        {
+            "name": "favourites",
+            "mails": [
+            ]
+        },
+        {
+            "name": "inbox",
+            "mails": [
+                {
+                    "new": "new",
+                    "title": "Re: Un juego para Erik",
+                    "content": "Hola Emma&#128075;<br>Muchas gracias por el juego&#128522; a Erik le ha encantado. Hemos visto que a tí se te da muy bien&#128521;.<br><br>Un abrazo muy fuerte&#129303;<br><hr><p class='text-muted'>Hola Harry&#128075;, soy Emma<br>estoy súper viciada a un juego y he pensado que igual a vuestro hijo Erik le mola darle un intento. Se llama <a href='https://pabloqb2000.github.io/scape-room/lights-out/' target='_blank'>Lights out</a>, va de apagar todas las luces. Como suelen molarle estas cosas creo que puede pasar un buen rato. Ya me contaréis si le gusta.<br><br>Un abrazo&#129303;<br>Emma</p>",
+                    "sender": "harry@duncan.com",
+                    "time": "Hace 1 día"
+                },
+                {
+                    "new": "read",
+                    "title": "El portal de la urbanización ya está listo",
+                    "content": "Buenos días<br>Le informamos que ya está dado de alta el portal de la urbanización. Puede acceder a él a traves de <a href='https://pabloqb2000.github.io/scape-room/portal/' traget='_blank'>este enlace</a>.<br>El acceso de administración también está listo y puede acceder a él iniciando sesión con este correo (emma@modm.com) y su contraseña. El acceso a las escrituras está aún en modo desarrollo.<br><br>Esperamos que el portal le sea útil a usted y al resto de vecionos/as.",
+                    "sender": "noreply@system.com",
+                    "time": "Hace 10 días"
+                },
+                {
+                    "new": "read",
+                    "title": "He perdido los contactos&#128552;",
+                    "content": "Hola pituleta,<br>te hablo al correo porque he perdido los contactos en Whatsapp, a ver si puedes volverme a escribir y así te vuelvo a agregar.<br>Pero bueno, ya que estoy aprovecho para pregutnarte qué tal estás jajaja. ¿Qué tal está Skinner con su trabajo en el restaurante?<br>Por ciertooo, estamos pensando en mudarnos de casa, nos gustaría coger una parecida a la vuestra, te parecerá una broma pero siempre nos ha dado envida vuestro ático, es muy acogedor y tiene cosillas que lo hacen muy práctico, como lo de tener una ventana en la cocina o lo de tener bañeraaa, no sabes lo en falta que hecho darme un baño a veces.<br>En fin, a ver sin nos vemos y hablamoos, un besazooo&#128536;<br><br>Tu hermanita.",
+                    "sender": "sara@mail.com",
+                    "time": "Hace 15 días"
+                }
+            ]
+        },
+        {
+            "name": "drafts",
+            "mails": [
+            ]
+        },
+        {
+            "name": "trash",
+            "mails": [
+            ]
+        }
+    ]
+}

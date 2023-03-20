@@ -46,8 +46,8 @@ h3, h4 {
 }
 .form-signin input:focus {
   outline: none !important;
-  border:1px solid {{base_color_1}};
-  box-shadow: 0 0 4px {{base_color_1}};
+  border:1px solid #b4ddfa;
+  box-shadow: 0 0 4px #b4ddfa;
 }
 .form-signin input[type="email"] {
   margin-bottom: -1px;
@@ -61,15 +61,15 @@ h3, h4 {
 }
 
 .btn-primary {
-  background-color: {{base_color_1}};
+  background-color: #b4ddfa;
   border: none !important;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: {{base_color_2}} !important;
+  background-color: #799fae !important;
 }
 .btn-primary:active {
-  background-color: {{base_color_3}} !important;
+  background-color: #0d9abb !important;
 }
 .icon {
   display: flex;
@@ -151,14 +151,14 @@ i:hover {
 }
 
 .mail-icon.primary-text {
-  color: {{base_color_1}};
+  color: #b4ddfa;
   transition-duration: 0.25s;
 }
 .mail-icon.primary-text:hover, .mail-icon.primary-text i:hover{
-  color: {{base_color_2}} !important;
+  color: #799fae !important;
 }
 .mail-icon.primary-text:active, .mail-icon.primary-text i:active {
-  color: {{base_color_3}} !important;
+  color: #0d9abb !important;
 }
 
 .mail {
@@ -169,7 +169,7 @@ i:hover {
 
 .mail-new {
   background-color: #5e5e63;
-  border-left: 4px solid {{base_color_1}};
+  border-left: 4px solid #b4ddfa;
 }
 
 .mail-read {

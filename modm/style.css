@@ -36,15 +36,18 @@ body {
   height: auto;
   padding: 10px;
   font-size: 16px;
-  transition-duration: 0.5s;
+  transition-duration: 0.25s;
 }
 .form-signin .form-control:focus {
   z-index: 2;
 }
+h3, h4 {
+  text-transform: uppercase;
+}
 .form-signin input:focus {
   outline: none !important;
-  border:1px solid #5299bf;
-  box-shadow: 0 0 4px #5299bf;
+  border:1px solid #ffe0b2;
+  box-shadow: 0 0 4px #ffe0b2;
 }
 .form-signin input[type="email"] {
   margin-bottom: -1px;
@@ -58,15 +61,15 @@ body {
 }
 
 .btn-primary {
-  background-color: #5299bf;
+  background-color: #ffe0b2;
   border: none !important;
 }
 
 .btn-primary:hover, .btn-primary:focus {
-  background-color: #427a99 !important;
+  background-color: #fcb64d !important;
 }
 .btn-primary:active {
-  background-color: #315c73 !important;
+  background-color: #f78c1e !important;
 }
 .icon {
   display: flex;
@@ -78,6 +81,10 @@ body {
 #hint {
   height: 0px;
   overflow: hidden;
+}
+
+hr {
+  border: 0.5px solid #999;
 }
 
 .border-bottom {
@@ -116,6 +123,7 @@ i:hover {
 
 .text-muted {
   color: #ccc !important;
+  font-size: 0.8rem;
 }
 
 .nopadding {
@@ -143,14 +151,14 @@ i:hover {
 }
 
 .mail-icon.primary-text {
-  color: #5299bf;
+  color: #ffe0b2;
   transition-duration: 0.25s;
 }
 .mail-icon.primary-text:hover, .mail-icon.primary-text i:hover{
-  color: #427a99 !important;
+  color: #fcb64d !important;
 }
 .mail-icon.primary-text:active, .mail-icon.primary-text i:active {
-  color: #315c73 !important;
+  color: #f78c1e !important;
 }
 
 .mail {
@@ -161,7 +169,7 @@ i:hover {
 
 .mail-new {
   background-color: #5e5e63;
-  border-left: 4px solid #5299bf;
+  border-left: 4px solid #ffe0b2;
 }
 
 .mail-read {
@@ -179,10 +187,6 @@ i:hover {
 
 .mail-new span {
   font-weight: bold;
-}
-
-.mail .text-muted {
-  text-transform: capitalize;
 }
 
 .modal-content {
