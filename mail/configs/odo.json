@@ -1,0 +1,75 @@
+{
+    "title": "odo",
+    "password_hint": "El apellido de Marv",
+    "mail": "harry@duncan.com",
+    "password": "merchants",
+    "salt_1": "4247a2fc3e1869",
+    "salt_2": "fb247668b10fda",
+    "mail_token": "968b",
+    "cover_img_name": "airplane.svg",
+    "base_color_1": "#b4ddfa",
+    "base_color_2": "#799fae",
+    "base_color_3": "#0d9abb",
+    "modes": [
+        {
+            "name": "sent",
+            "mails": [
+                {
+                    "new": "read",
+                    "title": "Re: Un juego para Erik",
+                    "content": "Hola Emma&#128075;<br>Muchas gracias por el juego&#128522; a Erik le ha encantado. Hemos visto que a tí se te da muy bien&#128521;.<br><br>Un abrazo muy fuerte&#129303;<br><hr><p class='text-muted'>Hola Harry&#128075;, soy Emma<br>estoy súper viciada a un juego y he pensado que igual a vuestro hijo Erik le mola darle un intento. Se llama <a href='https://pabloqb2000.github.io/scape-room/lights-out/' target='_blank'>Lights out</a>, va de apagar todas las luces. Como suelen molarle estas cosas creo que puede pasar un buen rato. Ya me contaréis si le gusta.<br><br>Un abrazo&#129303;<br>Emma</p>",
+                    "sender": "emma@modm.com",
+                    "time": "Hace 1 día"
+                },
+                {
+                    "new": "read",
+                    "title": "Sudadera perdida",
+                    "content": "Hola Wendy<br>Hemos encontrado una sudadera en la urbanización y creemos que es de Joe.<br>Avísame cuándo os viene bien y subimos a devolvérosla.<br><br>Saludos<br>Harry",
+                    "sender": "wendy@odo.com",
+                    "time": "Hace 5 días"
+                }
+            ]
+        },
+        {
+            "name": "favourites",
+            "mails": [
+            ]
+        },
+        {
+            "name": "inbox",
+            "mails": [
+                {
+                    "new": "read",
+                    "title": "Un juego para Erik",
+                    "content": "Hola Harry&#128075;, soy Emma<br>estoy súper viciada a un juego y he pensado que igual a vuestro hijo Erik le mola darle un intento. Se llama <a href='https://pabloqb2000.github.io/scape-room/lights-out/' target='_blank'>Lights out</a>, va de apagar todas las luces. Como suelen molarle estas cosas creo que puede pasar un buen rato. Ya me contaréis si le gusta.<br><br>Un abrazo&#129303;<br>Emma",
+                    "sender": "emma@modm.com",
+                    "time": "Hace 2 días"
+                },
+                {
+                    "new": "new",
+                    "title": "Te han etiquetado en una publicación",
+                    "content": "Estimado Harry<br><a href='https://instagram.com/ursula.carroll.1996?igshid=ZDdkNTZiNTM=' target='_blank'>@ursula.carroll.1996</a> te ha etiquetado en una historia. Entra en Instagram para ver esta y otras historias de tus amigos/as.<br><br>Atentamente<br>El equipo de Instagram.",
+                    "sender": "noreply@instagram.com",
+                    "time": "Hace 6 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Hola vecinos/as, el portal de la urbanización ya está listo",
+                    "content": "Buenos días vecinos/as&#128075;<br>La empresa que contratamos ya ha montado el portal de la urbanización&#127881;, podéis verlo <a href='https://pabloqb2000.github.io/scape-room/portal/' traget='_blank'>aquí</a>.<br><br>Espero que os guste, cualquier cosa me decís.<br>Un saludo",
+                    "sender": "emma@modm.com",
+                    "time": "Hace 10 días"
+                }
+            ]
+        },
+        {
+            "name": "drafts",
+            "mails": [
+            ]
+        },
+        {
+            "name": "trash",
+            "mails": [
+            ]
+        }
+    ]
+}
