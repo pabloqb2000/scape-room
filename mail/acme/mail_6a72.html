@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="./imgs/motor.svg">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="./style.css" rel="stylesheet">
+
+    <title>Acme</title>
+
+  </head>
+
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/bae53b7d59.js" crossorigin="anonymous"></script>
+    <script src="./mail_script.js"></script>
+
+    <div class="col-12 d-flex flex-column justify-content-between">
+        <div>
+            <div class="row border-bottom justify-content-between align-items-center py-3">
+                <img class="ml-4" src="./imgs/motor.svg" alt="" width="36" height="36">
+                <h4 class="">Acme</h4>
+                <div class="icon mr-4"><i class="fa-solid fa-arrow-right-from-bracket" title="logout" id="logout"></i></div>
+            </div>
+            
+                <div class="row justify-content-center mail-list" id="sent">
+                    <div class="col-md-9">
+                        
+                            <div class="mail row mail-read" title="Deuda pendiente"
+                                content="Hola Wendy<br>¿Te acuerdas de que tienes que devolverme el dinero que te presté?<br><br>Un cordial saludo<br>Elon Minsk"sender="elon.minsk@acme.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">elon.minsk@acme.com</span>
+                                        <span class="mx-3 text-muted">Hace 2 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Deuda pendiente</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Wendy...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="Duda piso urbanización"
+                                content="Hola Emma<br>Tú que llevas el tema de las escrituras de los pisos, ¿me puedes pasar las escrituras del piso vacío de la urbanización? ¿Sabes que pasa con ese piso?, le pregunté a Skinner por el tema y me dijo que sospechaba algo pero le he preguntado el qué y no me ha contestado.<br><br>Un abrazo<br>Elon Minsk"sender="emma@modm.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">emma@modm.com</span>
+                                        <span class="mx-3 text-muted">Hace 3 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Duda piso urbanización</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Emma...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="Re: Duda piso urbanización"
+                                content="Hola Skinner,<br>¿Qué es lo que sospechas del piso?¿Por qué tanto misterio alrededor del tema?<hr><p class='text-muted'>Hola Elon, ¿cómo estás? Aún tengo que ganarte una partida al mus.<br>Pues verás, yo también tengo mis sospechas sobre ese piso, lo mejor que puedo hacer es recomendarte que no te metas. Te voy a decir su referencia porque me caes bien 3231901SR4769J0420BQ, pero de verdad, creo que es mejor que no te metas.<br><br>Te deseo lo mejor<br>Skinner</p><hr><p class='text-muted'>...</p>"sender="skinner@mail.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">skinner@mail.com</span>
+                                        <span class="mx-3 text-muted">Hace 4 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Re: Duda piso urbanización</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Skinner,...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="Duda piso urbanización"
+                                content="Hola Skinner, ¿cómo te va?<br>Te cuento, el otro día estaba entrando en la urbanización, cuando ví algo raro por la ventana del piso este de la urbanización que lleva muchos años vacío. ¿Tú sabes algo de este piso? ¿Me puedes conseguir su referencia catastral?<br><br>Muchas gracias de antemano<br>Elon Minsk"sender="skinner@mail.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">skinner@mail.com</span>
+                                        <span class="mx-3 text-muted">Hace 4 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Duda piso urbanización</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Skinner, ¿cómo te va?...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+            
+
+                <div class="row justify-content-center mail-list" id="favourites">
+                    <div class="col-md-9">
+                        <div class='col-12 d-flex justify-content-center text-muted my-3'>Sin emails en esta carpeta.</div>
+                    </div>
+                </div>
+            
+
+                <div class="row justify-content-center mail-list" id="inbox">
+                    <div class="col-md-9">
+                        
+                            <div class="mail row mail-read" title="Presupuesto consulta"
+                                content="Hola Elon, este sería el presupuesto para la consulta que nos has hecho por teléfono:<p class='ml-2 mb-0'>Denuncia por intimidación y black-mailing</p><ul class='pl-4 mb-0'><li>Precio alta en la sociedad: 273 €</li><li>Precio defensa: 7.000€</li><li>Precio adminstración: 218 €</li></ul><p class='ml-2 mb-0'>Total: <b>7.491 €</b></p>Haznos saber si estás interasado.<br><br>Atentamente<br>El equipo de GHAbogados."sender="comercial@ghabogados.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">comercial@ghabogados.com</span>
+                                        <span class="mx-3 text-muted">Hace 2 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Presupuesto consulta</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Elon, este sería el presupuesto para la consulta que nos has hecho por teléfono:...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="Cuidado con lo que haces"
+                                content="Nos hemos enterado de que has estado husmeando en asuntos que no te conciernen.<br>Solo te vamos a dar una advertencia, deja de meterte donde no te llaman si no quieres amanecer muerto."sender="unk@unknown.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">unk@unknown.com</span>
+                                        <span class="mx-3 text-muted">Hace 2 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Cuidado con lo que haces</span>
+                                        <span class="ml-3 text-muted align-self-center">Nos hemos enterado de que has estado husmeando en asuntos que no te conciernen....</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="Re: Duda piso urbanización"
+                                content="Hola Elon<br>En ese piso no pasa nada. Yo no sé nada de ese piso y Skinner tampoco sabe nada porque ahí no hay nada. Lleva vacío desde hace 20 años y así sigue eso es todo lo que sé. No te voy a pasar las escrituras porque ese piso está vacío y no tienes que sospechar nada.<br><br>Un abrazo.<br>Emma<hr><p class='text-muted'>Hola Emma<br>Tú que llevas el tema de las escrituras de los pisos, ¿me puedes pasar las escrituras del piso vacío de la urbanización? ¿Sabes que pasa con ese piso?, le pregunté a Skinner por el tema y me dijo que sospechaba algo pero le he preguntado el qué y no me ha contestado.<br><br>Un abrazo<br>Elon Minsk</p>"sender="emma@modm.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">emma@modm.com</span>
+                                        <span class="mx-3 text-muted">Hace 3 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Re: Duda piso urbanización</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Elon...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="Re: Duda piso urbanización"
+                                content="Hola Elon, ¿cómo estás? Aún tengo que ganarte una partida al mus.<br>Pues verás, yo también tengo mis sospechas sobre ese piso, lo mejor que puedo hacer es recomendarte que no te metas. La referencia catastral del piso es 3231901SR4769J0420BQ, pero de verdad, creo que es mejor que no te metas.<br><br>Te deseo lo mejor<br>Skinner<hr><p class='text-muted'>Hola Skinner, ¿cómo te va?<br>Te cuento, el otro día estaba entrando en la urbanización, cuando ví algo raro por la ventana del piso este de la urbanización que lleva muchos años vacío. ¿Tú sabes algo de este piso? ¿Me puedes conseguir su referencia catastral?<br><br>Muchas gracias de antemano<br>Elon Minsk</p>"sender="skinner@mail.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">skinner@mail.com</span>
+                                        <span class="mx-3 text-muted">Hace 4 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Re: Duda piso urbanización</span>
+                                        <span class="ml-3 text-muted align-self-center">Hola Elon, ¿cómo estás? Aún tengo que ganarte una partida al mus....</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                            <div class="mail row mail-read" title="Hola vecinos/as, el portal de la urbanización ya está listo"
+                                content="Buenos días vecinos/as&#128075;<br>La empresa que contratamos ya ha montado el portal de la urbanización&#127881;, podéis verlo <a href='https://pabloqb2000.github.io/scape-room/portal/' traget='_blank'>aquí</a>.<br><br>Espero que os guste, cualquier cosa me decís.<br>Un saludo"sender="emma@modm.com">
+                                <div class="col-12">                            
+                                    <div class="row justify-content-between">
+                                        <span class="ml-3">emma@modm.com</span>
+                                        <span class="mx-3 text-muted">Hace 10 días</span>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <span class="ml-3">Hola vecinos/as, el portal de la urbanización ya está listo</span>
+                                        <span class="ml-3 text-muted align-self-center">Buenos días vecinos/as&#128075;...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        
+
+                    </div>
+                </div>
+            
+
+                <div class="row justify-content-center mail-list" id="drafts">
+                    <div class="col-md-9">
+                        <div class='col-12 d-flex justify-content-center text-muted my-3'>Sin emails en esta carpeta.</div>
+                    </div>
+                </div>
+            
+
+                <div class="row justify-content-center mail-list" id="trash">
+                    <div class="col-md-9">
+                        <div class='col-12 d-flex justify-content-center text-muted my-3'>Sin emails en esta carpeta.</div>
+                    </div>
+                </div>
+            
+
+        </div>
+
+        <div class="row border-top justify-content-center align-items-center icon-containter">
+            <div title="Enviados" id="sent" class="col-2 mail-icon">
+                <i class="fa-regular fa-paper-plane"></i>
+            </div>
+            <div title="Favoritos" id="favourites" class="col-2 mail-icon">
+                <i class="fa-regular fa-star"></i>
+            </div>
+            <div title="Entrada" id="inbox" class="col-2 mail-icon fa-2xl primary-text">
+                <i class="fa-solid fa-inbox"></i>
+            </div>
+            <div title="Borradores" id="drafts" class="col-2 mail-icon">
+                <i class="fa-regular fa-file"></i>
+            </div>
+            <div title="Eliminados" id="trash" class="col-2 mail-icon">
+                <i class="fa-regular fa-trash-can"></i>
+            </div>
+        </div>
+    </div>  
+
+    <!-- Email modal -->
+    <div class="modal fade" id="mail-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="email-title"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body py-4" id="email-content"></div>
+            <div class="modal-footer" id="email-sender"></div>
+        </div>
+        </div>
+    </div>
+
+  </body>
+</html>

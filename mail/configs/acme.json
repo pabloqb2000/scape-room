@@ -1,0 +1,103 @@
+{
+    "title": "acme",
+    "password_hint": "Nombre de mi pais",
+    "mail": "elon.minsk@acme.com",
+    "password": "Chile",
+    "salt_1": "4247a2fc3e1869",
+    "salt_2": "fb247668b10fda",
+    "mail_token": "6a72",
+    "cover_img_name": "motor.svg",
+    "base_color_1": "#ec7e7e",
+    "base_color_2": "#DD2E44",
+    "base_color_3": "#BE1931",
+    "modes": [
+        {
+            "name": "sent",
+            "mails": [
+                {
+                    "new": "read",
+                    "title": "Deuda pendiente",
+                    "content": "Hola Wendy<br>¿Te acuerdas de que tienes que devolverme el dinero que te presté?<br><br>Un cordial saludo<br>Elon Minsk",
+                    "sender": "elon.minsk@acme.com",
+                    "time": "Hace 2 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Duda piso urbanización",
+                    "content": "Hola Emma<br>Tú que llevas el tema de las escrituras de los pisos, ¿me puedes pasar las escrituras del piso vacío de la urbanización? ¿Sabes que pasa con ese piso?, le pregunté a Skinner por el tema y me dijo que sospechaba algo pero le he preguntado el qué y no me ha contestado.<br><br>Un abrazo<br>Elon Minsk",
+                    "sender": "emma@modm.com",
+                    "time": "Hace 3 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Re: Duda piso urbanización",
+                    "content": "Hola Skinner,<br>¿Qué es lo que sospechas del piso?¿Por qué tanto misterio alrededor del tema?<hr><p class='text-muted'>Hola Elon, ¿cómo estás? Aún tengo que ganarte una partida al mus.<br>Pues verás, yo también tengo mis sospechas sobre ese piso, lo mejor que puedo hacer es recomendarte que no te metas. Te voy a decir su referencia porque me caes bien 3231901SR4769J0420BQ, pero de verdad, creo que es mejor que no te metas.<br><br>Te deseo lo mejor<br>Skinner</p><hr><p class='text-muted'>...</p>",
+                    "sender": "skinner@mail.com",
+                    "time": "Hace 4 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Duda piso urbanización",
+                    "content": "Hola Skinner, ¿cómo te va?<br>Te cuento, el otro día estaba entrando en la urbanización, cuando ví algo raro por la ventana del piso este de la urbanización que lleva muchos años vacío. ¿Tú sabes algo de este piso? ¿Me puedes conseguir su referencia catastral?<br><br>Muchas gracias de antemano<br>Elon Minsk",
+                    "sender": "skinner@mail.com",
+                    "time": "Hace 4 días"
+                }
+            ]
+        },
+        {
+            "name": "favourites",
+            "mails": [
+            ]
+        },
+        {
+            "name": "inbox",
+            "mails": [
+                {
+                    "new": "read",
+                    "title": "Presupuesto consulta",
+                    "content": "Hola Elon, este sería el presupuesto para la consulta que nos has hecho por teléfono:<p class='ml-2 mb-0'>Denuncia por intimidación y black-mailing</p><ul class='pl-4 mb-0'><li>Precio alta en la sociedad: 273 €</li><li>Precio defensa: 7.000€</li><li>Precio adminstración: 218 €</li></ul><p class='ml-2 mb-0'>Total: <b>7.491 €</b></p>Haznos saber si estás interasado.<br><br>Atentamente<br>El equipo de GHAbogados.",
+                    "sender": "comercial@ghabogados.com",
+                    "time": "Hace 2 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Cuidado con lo que haces",
+                    "content": "Nos hemos enterado de que has estado husmeando en asuntos que no te conciernen.<br>Solo te vamos a dar una advertencia, deja de meterte donde no te llaman si no quieres amanecer muerto.",
+                    "sender": "unk@unknown.com",
+                    "time": "Hace 2 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Re: Duda piso urbanización",
+                    "content": "Hola Elon<br>En ese piso no pasa nada. Yo no sé nada de ese piso y Skinner tampoco sabe nada porque ahí no hay nada. Lleva vacío desde hace 20 años y así sigue eso es todo lo que sé. No te voy a pasar las escrituras porque ese piso está vacío y no tienes que sospechar nada.<br><br>Un abrazo.<br>Emma<hr><p class='text-muted'>Hola Emma<br>Tú que llevas el tema de las escrituras de los pisos, ¿me puedes pasar las escrituras del piso vacío de la urbanización? ¿Sabes que pasa con ese piso?, le pregunté a Skinner por el tema y me dijo que sospechaba algo pero le he preguntado el qué y no me ha contestado.<br><br>Un abrazo<br>Elon Minsk</p>",
+                    "sender": "emma@modm.com",
+                    "time": "Hace 3 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Re: Duda piso urbanización",
+                    "content": "Hola Elon, ¿cómo estás? Aún tengo que ganarte una partida al mus.<br>Pues verás, yo también tengo mis sospechas sobre ese piso, lo mejor que puedo hacer es recomendarte que no te metas. La referencia catastral del piso es 3231901SR4769J0420BQ, pero de verdad, creo que es mejor que no te metas.<br><br>Te deseo lo mejor<br>Skinner<hr><p class='text-muted'>Hola Skinner, ¿cómo te va?<br>Te cuento, el otro día estaba entrando en la urbanización, cuando ví algo raro por la ventana del piso este de la urbanización que lleva muchos años vacío. ¿Tú sabes algo de este piso? ¿Me puedes conseguir su referencia catastral?<br><br>Muchas gracias de antemano<br>Elon Minsk</p>",
+                    "sender": "skinner@mail.com",
+                    "time": "Hace 4 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Hola vecinos/as, el portal de la urbanización ya está listo",
+                    "content": "Buenos días vecinos/as&#128075;<br>La empresa que contratamos ya ha montado el portal de la urbanización&#127881;, podéis verlo <a href='https://pabloqb2000.github.io/scape-room/portal/' traget='_blank'>aquí</a>.<br><br>Espero que os guste, cualquier cosa me decís.<br>Un saludo",
+                    "sender": "emma@modm.com",
+                    "time": "Hace 10 días"
+                }
+            ]
+        },
+        {
+            "name": "drafts",
+            "mails": [
+            ]
+        },
+        {
+            "name": "trash",
+            "mails": [
+            ]
+        }
+    ]
+}
