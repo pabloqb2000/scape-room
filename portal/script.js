@@ -28,7 +28,7 @@ $(document).ready(function(){
         } else {
             $("#hint")
                 .css("height", "0px")
-                .animate({height: "24px"}, 500);
+                .animate({height: "40px"}, 500);
         }
     })
 });

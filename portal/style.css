@@ -106,6 +106,10 @@ h3 {
   transition-delay: 0.25s;
 }
 
+.text-muted {
+  color: #ccc !important;
+  font-size: 0.8rem;
+}
 
 .form-signin {
   width: 100%;

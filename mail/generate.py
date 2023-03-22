@@ -21,6 +21,8 @@ def get(dict, variables, key):
         return variables[v][k]
     if key == "password":
         return sha256(dict[key].lower() + dict["salt_1"])
+    elif key == "title":
+        return dict[key].capitalize()
     return dict[key]
 
 def render(content, data, variables = {}):

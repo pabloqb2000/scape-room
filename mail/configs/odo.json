@@ -1,33 +1,41 @@
 {
     "title": "odo",
-    "password_hint": "El apellido de Marv",
-    "mail": "harry@duncan.com",
-    "password": "merchants",
+    "password_hint": "Las iniciales de mi peluquera",
+    "mail": "wendy@odo.com",
+    "password": "CPV",
     "salt_1": "4247a2fc3e1869",
     "salt_2": "fb247668b10fda",
-    "mail_token": "968b",
-    "cover_img_name": "airplane.svg",
-    "base_color_1": "#b4ddfa",
-    "base_color_2": "#799fae",
-    "base_color_3": "#0d9abb",
+    "mail_token": "dd19",
+    "cover_img_name": "microphone.svg",
+    "base_color_1": "#a1f2cf",
+    "base_color_2": "#7eecbc",
+    "base_color_3": "#47b384",
     "modes": [
         {
             "name": "sent",
             "mails": [
                 {
                     "new": "read",
-                    "title": "Re: Un juego para Erik",
-                    "content": "Hola Emma&#128075;<br>Muchas gracias por el juego&#128522; a Erik le ha encantado. Hemos visto que a tí se te da muy bien&#128521;.<br><br>Un abrazo muy fuerte&#129303;<br><hr><p class='text-muted'>Hola Harry&#128075;, soy Emma<br>estoy súper viciada a un juego y he pensado que igual a vuestro hijo Erik le mola darle un intento. Se llama <a href='https://pabloqb2000.github.io/scape-room/lights-out/' target='_blank'>Lights out</a>, va de apagar todas las luces. Como suelen molarle estas cosas creo que puede pasar un buen rato. Ya me contaréis si le gusta.<br><br>Un abrazo&#129303;<br>Emma</p>",
-                    "sender": "emma@modm.com",
-                    "time": "Hace 1 día"
+                    "title": "El pesado del vecino",
+                    "content": "Hola Juan<br>Mi vecino Elon ha conseguido mi correo electrónico y ha aprovechado para recordarme que le debo dinero&#128580;. Es un plasta, ojalá un día se tropiece con el palo que tiene metido por el culo.<br>Te escribo para ver si puedes devolverme el dinero que te presté, si puedes, sino seguiré dandole largas al fantasma este, ya me estoy acostumbrando.&#129335;<br><br>Un abrazo y ya sabes que es sólo si no te viene mal<br>Wendy",
+                    "sender": "juan.luis@mail.com",
+                    "time": "Hace 2 días"
                 },
                 {
                     "new": "read",
-                    "title": "Sudadera perdida",
-                    "content": "Hola Wendy<br>Hemos encontrado una sudadera en la urbanización y creemos que es de Joe.<br>Avísame cuándo os viene bien y subimos a devolvérosla.<br><br>Saludos<br>Harry",
-                    "sender": "wendy@odo.com",
+                    "title": "Re: La comida ideal para tus mascotas",
+                    "content": "Hola,<br> ya hace años que murió mi perro, por favor dejen de enviarme esta repetitiva publicidad. Hace años que no tengo mascostas en casa y si vuelvo a tener me aseguraré de comprar comida de una marca que no mande tanto spam. Por favor tramiten mi baja de la lista de difusión lo antes posible.<br><br>Gracias.<hr><p class='text-muted'>La comida ideal para tus mascotas&#128054; ya ha llegado a nuestras tiendas&#127881;<br>Con la comida de Royal canon® tu perro estará bien alimentado y protegido&#128737; contra todo tipo de virus, bacterias y otras enfermedades. Protege a tu mejor amigo con Royal canon®.<br><br>Para darte de baja de esta lista de correo por favor escribe un mail a support@royalcanon.com</p>",
+                    "sender": "support@royalcanon.com",
                     "time": "Hace 5 días"
+                },
+                {
+                    "new": "read",
+                    "title": "Mira este piso que he encontrado",
+                    "content": "Mira este piso<br><a href='http://www.idealista.com/inmueble/100832098/' target='_blank'>http://www.idealista.com/inmueble/100832098/</a> tiene una habitación más que el nuestro, luego le echamos un vistazo juntos.",
+                    "sender": "joeboy@mail.com",
+                    "time": "Hace 8 días"
                 }
+
             ]
         },
         {
@@ -40,17 +48,24 @@
             "mails": [
                 {
                     "new": "read",
-                    "title": "Un juego para Erik",
-                    "content": "Hola Harry&#128075;, soy Emma<br>estoy súper viciada a un juego y he pensado que igual a vuestro hijo Erik le mola darle un intento. Se llama <a href='https://pabloqb2000.github.io/scape-room/lights-out/' target='_blank'>Lights out</a>, va de apagar todas las luces. Como suelen molarle estas cosas creo que puede pasar un buen rato. Ya me contaréis si le gusta.<br><br>Un abrazo&#129303;<br>Emma",
-                    "sender": "emma@modm.com",
+                    "title": "Deuda pendiente",
+                    "content": "Hola Wendy<br>¿Te acuerdas de que tienes que devolverme el dinero que te presté?<br><br>Un cordial saludo<br>Elon Minsk",
+                    "sender": "elon.minsk@acme.com",
                     "time": "Hace 2 días"
                 },
                 {
                     "new": "new",
-                    "title": "Te han etiquetado en una publicación",
-                    "content": "Estimado Harry<br><a href='https://instagram.com/ursula.carroll.1996?igshid=ZDdkNTZiNTM=' target='_blank'>@ursula.carroll.1996</a> te ha etiquetado en una historia. Entra en Instagram para ver esta y otras historias de tus amigos/as.<br><br>Atentamente<br>El equipo de Instagram.",
-                    "sender": "noreply@instagram.com",
-                    "time": "Hace 6 días"
+                    "title": "Sudadera perdida",
+                    "content": "Hola Wendy<br>Hemos encontrado una sudadera en la urbanización y creemos que es de Joe.<br>Avísame cuándo os viene bien y subimos a devolvérosla.<br><br>Saludos<br>Harry",
+                    "sender": "harry@duncan.com",
+                    "time": "Hace 5 días"
+                },
+                {
+                    "new": "read",
+                    "title": "La comida ideal para tus mascotas",
+                    "content": "La comida ideal para tus mascotas&#128054; ya ha llegado a nuestras tiendas&#127881;<br>Con la comida de Royal canon® tu perro estará bien alimentado y protegido&#128737; contra todo tipo de virus, bacterias y otras enfermedades. Protege a tu mejor amigo con Royal canon®.<br><br>Para darte de baja de esta lista de correo por favor escribe un mail a support@royalcanon.com",
+                    "sender": "info@royalcanon.com",
+                    "time": "Hace 5 días"
                 },
                 {
                     "new": "read",

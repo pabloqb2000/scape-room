@@ -46,7 +46,8 @@ body {
     right: 0%;
 }
 .text-muted {
-    color: #d2d2d2 !important;
+  color: #ccc !important;
+  font-size: 0.8rem;
 }
 
 i {
