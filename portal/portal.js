@@ -6,7 +6,6 @@ $(document).ready(function(){
         toggle_nav_link(".nav-2", ".nav-1");
     });
     $("#consultar").on("click", consultar)
-    toggle_nav_link(".nav-2", ".nav-1"); //TODO: Borrar
 });
 
 function toggle_nav_link(pressed_loc, other_loc) {
