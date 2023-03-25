@@ -99,15 +99,36 @@
               <b>debe responder a las preguntas de seguridad correctamente</b>, para verificar que usted
               pertenece a la comunidad de vecinos.
               En caso de introducir <b>incorrectamente</b> alguno de los datos del formulario <b>se enviará
-              un correo al presidente.</b>
+              un correo al presidente</b>. El <b>piso y letra</b> deben ser los correspondientes a la referencia catastral, sino
+              también será considerado un acceso por alguien externo.
             </p>
           </div>
         </div>
         <div class="row justify-content-center mt-3">
           <div class="col-xl-5 col-10">
             <div class="row">
-              <div class="col-12 text-lg-center"><label for="inputEmail">Referencia catastral del piso cuyas escrituras se desean consultar</label></div>
-              <div class="col-12"><input type="email" id="inputEmail" class="form-control" placeholder="Email address"></div>
+              <div class="col-12 text-lg-center"><label for="catastral-ref">Referencia catastral del piso cuyas escrituras se desean consultar</label></div>
+              <div class="col-12"><input type="email" id="catastral-ref" class="form-control" placeholder="1234567AB1234A1234AB"></div>
+            </div>
+            <div class="row mt-2">
+              <div class="col-sm-6 d-flex align-items-center">
+                <label for="data1" class="mb-0">Planta y letra del apartamento a consultar</label>
+              </div>
+              <div class="col-sm-3 col-6">
+                <select id="data1" class="form-control" placeholder="Email address">
+                  <option>4</option>
+                  <option>3</option>
+                  <option>2</option>
+                  <option>1</option>
+                </select>
+              </div>
+              <div class="col-sm-3 col-6">
+                <select id="data2" class="form-control" placeholder="Email address">
+                  <option>A</option>
+                  <option>B</option>
+                  <option>C</option>
+                </select>
+              </div>
             </div>
             
             <div class="row mt-4">
@@ -115,23 +136,23 @@
             </div>
             <div class="row mt-2">
               <div class="col-sm-6 d-flex align-items-center">
-                <label for="inputEmail" class="mb-0">Email address</label>
+                <label for="data3" class="mb-0">¿En qué planta vive Karen Pelaez?</label>
               </div>
               <div class="col-sm-6">
-                <select id="inputEmail" class="form-control" placeholder="Email address">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
+                <select id="data3" class="form-control" placeholder="Email address">
                   <option>4</option>
+                  <option>3</option>
+                  <option>2</option>
+                  <option>1</option>
                 </select>
               </div>
             </div>
             <div class="row mt-2">
               <div class="col-sm-6 d-flex align-items-center">
-                <label for="inputEmail" class="mb-0">Email address</label>
+                <label for="data4" class="mb-0">¿Cuál es la letra del piso de Úrsula?</label>
               </div>
               <div class="col-sm-6">
-                <select id="inputEmail" class="form-control" placeholder="Email address">
+                <select id="data4" class="form-control" placeholder="Email address">
                   <option>A</option>
                   <option>B</option>
                   <option>C</option>
@@ -140,25 +161,18 @@
             </div>
             <div class="row mt-2">
               <div class="col-sm-6 d-flex align-items-center">
-                <label for="inputEmail" class="mb-0">Email address</label>
+                <label for="data5" class="mb-0">¿En qué planta vive Wendy?</label>
               </div>
-              <div class="col-sm-3 col-6">
-                <select id="inputEmail" class="form-control" placeholder="Email address">
-                  <option>1</option>
-                  <option>2</option>
-                  <option>3</option>
+              <div class="col-sm-6">
+                <select id="data5" class="form-control" placeholder="Email address">
                   <option>4</option>
-                </select>
-              </div>
-              <div class="col-sm-3 col-6">
-                <select id="inputEmail" class="form-control" placeholder="Email address">
-                  <option>A</option>
-                  <option>B</option>
-                  <option>C</option>
+                  <option>3</option>
+                  <option>2</option>
+                  <option>1</option>
                 </select>
               </div>
             </div>
-            <button class="btn btn-lg btn-primary btn-block my-5" id="login">Log in</button>
+            <button class="btn btn-lg btn-primary btn-block my-5" id="consultar">Consultar</button>
           </div>
         </div>
       </div>

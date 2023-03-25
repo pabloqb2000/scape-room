@@ -74,6 +74,17 @@ i {
     right: 0;
 }
 
+@media (max-width: 460px) {
+    h3 {
+      font-size: 1.5rem;
+    }
+}
+@media (max-width: 350px) {
+    h3 {
+      font-size: 1.25rem;
+    }
+}
+
 .mcontent.mcontent-1.move {
     transform: translateX(-100vw);
 }

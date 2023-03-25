@@ -170,3 +170,19 @@ h3 {
   height: 0px;
   overflow: hidden;
 }
+.gif {
+  border-radius: 15px;
+}
+
+@media (min-width: 992px) {
+  .w-lg-50 {
+    width: 50%;
+  }
+}
+
+.hcard {
+  border-radius: 5px;
+  border: 1px solid #888;
+  margin: 8px 0px;
+  padding: 8px;
+}
