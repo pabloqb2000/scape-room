@@ -3,7 +3,9 @@
 no tengo lana para pagar un hosting dedicado para las webs del scape-room, ni me flexeo github premium con el que poder poner este repo en privado y mantener los github pages. 😢
 
 ### **Así que**
-si estás haciendo el scape-room
+si has llegado aquí desde github y quieres hacer el scape-room puedes empezar leyendo [esta carta](https://drive.google.com/file/d/1j20j1Yuc8SYE6pw6E9xa2BPsXcDDTgY8/view?usp=share_link) 
+
+y si estás haciendo el scape-room
 
 ### **No te jodas la experiencia**
 Y vuelve a la página en la que estabas. 😉
