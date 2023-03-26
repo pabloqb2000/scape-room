@@ -1,0 +1,75 @@
+{
+    "title": "loserre",
+    "password_hint": "Mi año de nacimiento",
+    "mail": "pablo.guzman@loserre.com",
+    "password": "1987",
+    "salt_1": "4247a2fc3e1869",
+    "salt_2": "fb247668b10fda",
+    "mail_token": "19e9",
+    "cover_img_name": "knife.svg",
+    "base_color_1": "#212121",
+    "base_color_2": "#121212",
+    "base_color_3": "#a72f2f",
+    "modes": [
+        {
+            "name": "sent",
+            "mails": [
+                {
+                    "new": "read",
+                    "title": "Esta noche hay desguace",
+                    "content": "Quinquillero,<br><br>El avión se ha saltado el semáforo en rojo<br>Hay que llevarlo al desguace<br><br>Guzman.",
+                    "sender": "el.quinquillero.neto@loserre.com",
+                    "time": "Ayer"
+                },
+                {
+                    "new": "read",
+                    "title": "Problemas",
+                    "content": "Quinquillero,<br><br>La situación es crítica, un vecino está revoloteando sobre el almacén, y la alharaca que está causando nos pone en una posición muy delicada. Nuestro negocio está en la cuerda floja, y eso no lo toleraré.<br>Precisamos poner fin a esta situación, lo antes posible. ¿Cómo hacemos aterrizar al avión? Nuestra seguridad y prosperidad dependen de ello.<br>No es necesario que te recuerde la importancia de actuar con brevedad en estos casos. Espero tu pronta respuesta para tomar cartas en el asunto.<br><br>Guzman.",
+                    "sender": "el.quinquillero.neto@loserre.com",
+                    "time": "Hace 2 días"
+                }
+            ]
+        },
+        {
+            "name": "favourites",
+            "mails": [
+            ]
+        },
+        {
+            "name": "inbox",
+            "mails": [
+                {
+                    "new": "read",
+                    "title": "Re: Esta noche hay desguace",
+                    "content": "Recibido<br>ya sabes que no quedan hormigas en el hormiguero así que tendrás que hacerlo tú sólo.<br>Buena suerte, cuando el cielo esté libre llama al águila para comenzar la operación de limpieza. Si el vuelo se tuerce habrá que liquidar la compañia.<br><br>El quinquillero neto<hr><p class='text-muted'>Quinquillero,<br><br>El avión se ha saltado el semáforo en rojo<br>Hay que llevarlo al desguace<br><br>Guzman.</p>",
+                    "sender": "el.quinquillero.neto@loserre.com",
+                    "time": "Ayer"
+                },
+                {
+                    "new": "read",
+                    "title": "Re: Problemas",
+                    "content": "Guzman, sólo hay una manera de solucionar esto y la conoces muy bien<br>dale un toque que se asuste bien y si sigue insistiendo a los aviones que revolotean se les cortan las alas.<br><br>Actua rápido y con determinación<br>El quinquillero neto<hr><p class='text-muted'>Quinquillero,<br><br>La situación es crítica, un vecino está revoloteando sobre el almacén, y la alharaca que está causando nos pone en una posición muy delicada. Nuestro negocio está en la cuerda floja, y eso no lo toleraré.<br>Precisamos poner fin a esta situación, lo antes posible. ¿Cómo hacemos aterrizar al avión? Nuestra seguridad y prosperidad dependen de ello.<br>No es necesario que te recuerde la importancia de actuar con brevedad en estos casos. Espero tu pronta respuesta para tomar cartas en el asunto.<br><br>Guzman.</p>",
+                    "sender": "el.quinquillero.neto@loserre.com",
+                    "time": "Hace 2 días"
+                },
+                {
+                    "new": "new",
+                    "title": "Hola vecinos/as, el portal de la urbanización ya está listo",
+                    "content": "Buenos días vecinos/as&#128075;<br>La empresa que contratamos ya ha montado el portal de la urbanización&#127881;, podéis verlo <a href='https://pabloqb2000.github.io/scape-room/portal/' traget='_blank'>aquí</a>.<br><br>Espero que os guste, cualquier cosa me decís.<br>Un saludo",
+                    "sender": "emma@modm.com",
+                    "time": "Hace 10 días"
+                }
+            ]
+        },
+        {
+            "name": "drafts",
+            "mails": [
+            ]
+        },
+        {
+            "name": "trash",
+            "mails": [
+            ]
+        }
+    ]
+}
