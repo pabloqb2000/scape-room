@@ -84,23 +84,35 @@ h3, h4 {
 }
 
 hr {
-  border: 0.5px solid #999;
+  border-top: none !important;
+  border-bottom: 1px solid #0d9abb !important;
 }
 
-.border-bottom {
-  border-bottom: 1px solid #fff;
+a {
+  color: #b4ddfa;
+}
+a:hover {
+  color: #799fae;
+}
+a:active {
+  color: #0d9abb;
 }
 
-.border-top {
-  border-top: 1px solid #fff;
+
+.border-bottom, .modal-header {
+  border-bottom: 1px solid #b4ddfa !important;
+}
+
+.border-top, .modal-footer {
+  border-top: 1px solid #b4ddfa !important;
 }
 
 .border-right {
-  border-right: 1px solid #fff;
+  border-right: 1px solid #b4ddfa !important;
 }
 
 .border-left {
-  border-left: 1px solid #fff;
+  border-left: 1px solid #b4ddfa !important;
 }
 
 .vertical-center {
