@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stardos+Stencil:wght@400;700&display=swap');
 
 html,
 body {
@@ -17,7 +17,7 @@ body {
   justify-content: center;
   background-color: #4d4d52;
   color: #fff;
-  font-family: 'Comfortaa', Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Stardos Stencil', Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .form-signin {

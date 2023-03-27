@@ -10,6 +10,8 @@
     "base_color_1": "#212121",
     "base_color_2": "#121212",
     "base_color_3": "#a72f2f",
+    "font_url": "https://fonts.googleapis.com/css2?family=Reggae+One&display=swap",
+    "font_name": "Reggae One",
     "modes": [
         {
             "name": "sent",
