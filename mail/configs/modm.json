@@ -10,8 +10,8 @@
     "base_color_1": "#ffe0b2",
     "base_color_2": "#fcb64d",
     "base_color_3": "#f78c1e",
-    "font_url": "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;700&display=swap",
-    "font_name": "Comfortaa",
+    "font_url": "https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;400;700&display=swap",
+    "font_name": "MuseoModerno",
     "modes": [
         {
             "name": "sent",
