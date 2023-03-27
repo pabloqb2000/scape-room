@@ -124,9 +124,9 @@ h1, h2, h3 {
 
 .end-pannel {
   opacity: 0;
-  background-color: var(--main-color);
+  background-color: var(--block-color);
   border-radius: 5px;
-  box-shadow: 0px 6px 0px var(--main-shadow);
+  box-shadow: 0px 6px 0px var(--block-shadow);
 
 }
 .end-pannel td, .end-pannel h2 {
@@ -137,10 +137,10 @@ h1, h2, h3 {
 .end-pannel a {
   color: #f3f3f3;
   text-shadow: 0px 3px 0px var(--main-shadow);
-  box-shadow: 0px 3px 0px var(--block-shadow);
+  box-shadow: 0px 3px 0px var(--main-shadow);
   padding: 10px;
   border-radius: 5px;
-  background-color: var(--block-color);
+  background-color: var(--main-color);
   text-decoration: none;
   transition-duration: 0.5s;
 }
