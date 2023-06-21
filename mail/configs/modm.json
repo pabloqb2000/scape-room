@@ -71,6 +71,13 @@
         {
             "name": "trash",
             "mails": [
+                {
+                    "new": "read",
+                    "title": "Duda piso urbanización",
+                    "content": "Hola Emma<br>Tú que llevas el tema de las escrituras de los pisos, ¿me puedes pasar las escrituras del piso vacío de la urbanización? ¿Sabes que pasa con ese piso?, le pregunté a Skinner por el tema y me dijo que sospechaba algo pero le he preguntado el qué y no me ha contestado.<br><br>Un abrazo<br>Elon Minsk",
+                    "sender": "elon.minsk@acme.com",
+                    "time": "Hace 3 días"
+                }
             ]
         }
     ]

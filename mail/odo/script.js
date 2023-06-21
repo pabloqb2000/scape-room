@@ -23,7 +23,7 @@ $(document).ready(function(){
          * https://raw.githubusercontent.com/pabloqb2000/scape-room/main/memes/meme02.png
          * Mándame un correo si quieres mi paypal para pagarme un backend ;)
          */
-        if(email == "wendy@odo.com" && hash1 == "fcdb5f4c1b2a855b956b4b3f45bdde04d3ce6b90062999b69d48656e72b89b8c"){
+        if(email == "wendy@odo.com" && hash1 == "4aba9e9954f42a4a53c4e51e670d8a1ef52d09ff67546eee5b9809d16f46d9d6"){
             window.location.href = "mail_" + hash2.substring(0,4) + ".html";
         } else {
             $("#hint")
