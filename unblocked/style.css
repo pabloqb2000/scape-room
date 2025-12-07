@@ -7,7 +7,7 @@
   --main-color: oklch(59.418% 0.15835 38.319);
   --main-shadow: oklch(59.418% 0.15835 38.319 0.5);
   --block-color: oklch(72.41% 0.10844 64.623);
-  --block-color: oklch(72.41% 0.10844 64.623 0.5);
+  --block-shadow: oklch(72.41% 0.10844 64.623 0.5);
 }
 
 html,
