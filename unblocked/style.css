@@ -4,10 +4,10 @@
 }
 
 :root {
-  --main-color: rgb(241, 191, 175);
-  --main-shadow: rgb(121, 96, 88);
-  --block-color: rgb(241, 200, 175);
-  --block-shadow: rgb(202, 173, 155);
+  --main-color: oklch(59.418% 0.15835 38.319);
+  --main-shadow: oklch(59.418% 0.15835 38.319 0.5);
+  --block-color: oklch(72.41% 0.10844 64.623);
+  --block-color: oklch(72.41% 0.10844 64.623 0.5);
 }
 
 html,
