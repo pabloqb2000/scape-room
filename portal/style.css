@@ -98,6 +98,15 @@ h3 {
   height: 0;
 }
 
+a {
+  color: #e1a847;
+    transition: all 0.25s ease;
+}
+a:hover {
+  color: #ad843c;
+  text-decoration: none;
+}
+
 .admin-link a {
   color: inherit !important;
   text-decoration: none !important;
