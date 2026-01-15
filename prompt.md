@@ -270,48 +270,48 @@ Anuncio_qr -> 4ºC - Ray Dalton
 Correo Emma -> Vive en un ático, por descarte el 4ºA -> 4ºA - Emma y Skinner
 
 **Plantas 2º y 3º sin letras**
-Sólo quedan dos plantas libres (2º y 3º) y Karen menciona que vive debajo de Elon -> Karen vive en un 2º y Elon en un 3º
-Karen vive en la misma planta que una persona con dos gatos, Úrsula tiene 2 gatos y es la única persona con gatos -> Úrsula vive en un 2º
-Karen tiene otro vecino, con un piano y un perro -> El piso vacío es un 3º
-Wendy no tiene perro y no es la persona con gatos (lo es Úrsula) -> No vive en el mismo piso que Karen -> Wendy vive en un tercero
-Por descarte, sólo nos quedan Harry y Marv, ya hemos ubicado a tres vecinos en la planta 3º -> Viven en un 2º
+Sólo quedan dos plantas libres (2º y 3º) y Karen menciona que vive encima de Elon -> Karen vive en un 3º y Elon en un 2º
+Karen vive en la misma planta que una persona con dos gatos, Úrsula tiene 2 gatos y es la única persona con gatos -> Úrsula vive en un 3º
+Karen tiene otro vecino, con un piano y un perro -> El piso vacío no es un 3º y por tanto es un 2º
+Wendy no tiene perro y no es la persona con gatos (lo es Úrsula) -> No vive en el mismo piso que Karen -> Wendy vive en un 3º
+Por descarte, sólo nos quedan Harry y Marv, ya hemos ubicado a tres vecinos en la planta 2º -> Viven en un 3º
 Eso nos deja lo siguiente:
 2º:
-  Karen y Manuel
-  Úrsula y Mehdi
-  Harry y Marv
-3º:
   Elon Minsk
   Piso vacío
   Wendy y Joeboy
+3º:
+  Karen y Manuel
+  Úrsula y Mehdi
+  Harry y Marv
 
 **Letras en el plano**
 Ahora es importante ubicar cada letra sobre el plano de la urbanización:
 Emma vive en el 4ºA, tiene bañera y ventana en la cocina -> Letras A - Sur-este
-El 4ºC pone en el anuncio que tiene 3 habitaciones -> Letras C - Oeste
-Por descarte -> Letras B - Norte
+El 4ºC pone en el anuncio_qr que tiene 2 habitaciones, pero el del sur-este sabemos que no es porque ese es de Emma -> Letras C - Norte
+Por descarte -> Letras B - Oeste
 
 **Letras que faltan**
-Úrsula ve el atardecer desde su ventana -> Apartamento Oeste -> 2ºC
-Elon y Karen viven uno debajo del otro -> No pueden vivir en la letra C -> Ambos en la A o ambos en la B
-Wendy vive en un piso de 2 habitaciones -> Norte o Sur Este -> A o B
-En el piso 3º, si Elon ocupa la letra A Wendy ocupa la B y si Elon ocupa la B Wendy ocupa la A -> El piso vacío es el 3ºC
+Úrsula ve el atardecer desde su ventana -> Apartamento Oeste -> 3ºB
+Elon y Karen viven uno debajo de la otra -> No pueden vivir en la letra B -> Ambos en la A o ambos en la C
+Wendy vive en un piso de 2 habitaciones -> Norte o Sur Este -> A o C
+En el piso 2º, si Elon ocupa la letra A Wendy ocupa la C y si Elon ocupa la C Wendy ocupa la A -> El piso vacío es el 2ºB
 
 Es decir, o bien:
-2ºA Karen y Manuel
-2ºB Harry y Marv
-2ºC Úrsula y Mehdi
-3ºA Elon Minsk
-3ºB Wendy y Joeboy
-3ºC Piso vacío
+2ºA Elon Minsk
+2ºB Piso vacío
+2ºC Wendy y Joeboy
+3ºA Karen y Manuel
+3ºB Úrsula y Mehdi
+3ºC Harry y Marv
 
 O bien:
-2ºA Harry y Marv
-2ºB Karen y Manuel
-2ºC Úrsula y Mehdi
-3ºA Wendy y Joeboy
-3ºB Elon Minsk
-3ºC Piso vacío
+2ºA Wendy y Joeboy
+2ºB Piso vacío
+2ºC Elon Minsk
+3ºA Harry y Marv
+3ºB Úrsula y Mehdi
+3ºC Karen y Manuel
 
 No hay información suficiente para distinguir entre ambos escenarios. Pero llegar a esto es suficiente para responder a las preguntas de seguridad y saber la planta y letra del piso vacío.
 
