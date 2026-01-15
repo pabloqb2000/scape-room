@@ -199,15 +199,27 @@ CATCH: Es habitual que los jugadores visiten este anuncio y crean que se trata d
 El indicio de contraseña de este correo es "Nombre de mi pais".
 Estos podemos deducirlo de la extensión del número de teléfono de Elon, en el anuncio de Ikealista (anuncio_qr).
 
-# TODO
+### Correos enviados
+- Para: skinner @mail.com
+  Mensaje: |
+    [...] ví algo raro por la ventana del piso este de la urbanización que lleva muchos años vacío.
+    ¿Tú sabes algo de este piso? ¿Me puedes conseguir su referencia catastral?
+- Para: skinner @mail.com
+  Mensaje: ¿Qué es lo que sospechas del piso?¿Por qué tanto misterio alrededor del tema?
+- Para: emma @modm.com
+  Mensaje: Tú que llevas el tema de las escrituras de los pisos, ¿me puedes pasar las escrituras del piso vacío de la urbanización? [...]
 
 ### Correos recibidos
-- De:
-  Mensaje:
-
-### Correos enviados
-- Para:
-  Mensaje: 
+- De: skinner @mail.com
+  Mensaje: [...] yo también tengo mis sospechas sobre ese piso [...] La referencia catastral del piso es 3231901SR4769J0420BQ [...].
+- De: emma @modm.com
+  Mensaje: [...] ese piso está vacío y no tienes que sospechar nada.
+- De: unk @unknown.com
+  Mensaje: |
+    Nos hemos enterado de que has estado husmeando en asuntos que no te conciernen.
+    Solo te vamos a dar una advertencia, deja de meterte donde no te llaman si no quieres amanecer muerto.
+- De: comercial@ghabogados.com
+  Mensaje: Presupuesto denuncia por intimidación y black-mailing.
 
 
 ## Portal de administración
