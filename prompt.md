@@ -1,9 +1,11 @@
 # Tarea
 
+# TODO
 
 
 # Interacciones
 
+# TODO
 
 
 # El scaperoom
@@ -89,7 +91,7 @@ Información oculta en el portal:
 - La panadería está instalada en el 1ºB
 - El banner de la parte superior del portal es una foto de la urbanización.
     - En la foto hay un qr sobre un texto que dice "ALQUILER EN ESTE EDIFICIO".
-    - El qr de la foto lleva a: https://pabloqb2000.github.io/scape-room/Ikealista/ (anuncio 1)
+    - El qr de la foto lleva a: https://pabloqb2000.github.io/scape-room/Ikealista/ (anuncio_qr)
 - Arriba a la derecha hay un icono que lleva al login de la página de administración del portal: https://pabloqb2000.github.io/scape-room/portal/admin.html
 - En la foto de la peluquería, sobre el secador, en letras muy pequeñas, pueden verse las iniciales: "CPL".
 
@@ -132,7 +134,7 @@ El username, podemos encontrarlo resolviendo el puzzle "Lights out".
 
 ## Correo ODO (wendy@odo.com)
 
-El indicio de contraseña de este correo es "Mi username en los juegos".
+El indicio de contraseña de este correo es "Las iniciales de mi peluquera".
 Estas podemos encontrarlas en la foto de la peluquería del portal de la urbanización.
 
 ### Correos recibidos
@@ -147,7 +149,7 @@ Estas podemos encontrarlas en la foto de la peluquería del portal de la urbaniz
 - Para: support@royalcanon.com
   Mensaje: Hace años que no tengo mascostas en casa. Dejad de mandar publicidad.
 - Para: joeboy@mail.com
-  Mensaje: Mira este piso https://pabloqb2000.github.io/scape-room/Ikealista/apartment.html (anuncio 2) tiene una habitación más que el nuestro.
+  Mensaje: Mira este piso https://pabloqb2000.github.io/scape-room/Ikealista/apartment.html (anuncio_email) tiene una habitación más que el nuestro.
 
 
 ## Instagram Úrsula (@ursula.carroll.1996)
@@ -159,7 +161,7 @@ Visitando la web/aplicacón de instagram puede encontrarse este perfil (https://
 - Odia encontrarse con su vecino Elon en el ascensor
 
 
-## Ikealista (anuncio 1) (/Ikealista/)
+## Ikealista (anuncio_qr) (/Ikealista/)
 
 En este anuncio se puede ver un apartamento, que sí forma parte de la urbanización que estamos investigando. Se aprecia mucha inforamción:
 - Calle Wallaby 42, Sidney
@@ -182,9 +184,9 @@ Aporta mucha información sobre la distribución y el número de habitaciones de
 - Apartamento al sur-este: 2 habitaciones, con bañera, con ventana en la cocina.
 
 
-## Ikealista (anuncio 2) (/Ikealista/apartment.html)
+## Ikealista (anuncio_email) (/Ikealista/apartment.html)
 
-Este anuncio es distinto del anuncio 1.
+Este anuncio es distinto del anuncio_qr.
 El apartamento está en otra calle y por lo tanto no está en la misma urbanización. Además está en un 6 apartamento y el portal que investigamos tiene 4.
 El apartamento tiene 3 habitaciones y por tanto el apartamento de Wendy y Joeboy tiene 2 habitaciones
 
@@ -195,7 +197,9 @@ CATCH: Es habitual que los jugadores visiten este anuncio y crean que se trata d
 ## Correo ACME (elon.minsk@acme.com)
 
 El indicio de contraseña de este correo es "Nombre de mi pais".
-Estos podemos deducirlo de la extensión del número de teléfono de Elon, en el anuncio de Ikealista (anuncio 1).
+Estos podemos deducirlo de la extensión del número de teléfono de Elon, en el anuncio de Ikealista (anuncio_qr).
+
+# TODO
 
 ### Correos recibidos
 - De:
@@ -238,3 +242,76 @@ Esto obliga a los jugadores a encontrar la planta y la letra en la que se alojan
 
 
 ## Deducción de la ubicación de los residentes
+
+Para avanzar los jugadores deben averiguar la planta y letra de todos los residentes. Aquí se explica el razonamiento:
+
+**Primera planta**
+La primera planta es fácil de ubicar:
+Foto buzones -> 1ºC - Pablo Guzmán
+Portal urbanización -> 1ºB - Panadería
+Portal urbanización -> 1ºA - Peluquería
+
+**Cuarta planta**
+La cuarta planta también es fácil:
+Foto buzones -> 4ºB - Rebeca Malone y Jack Pearson
+Anuncio_qr -> 4ºC - Ray Dalton
+Correo Emma -> Vive en un ático, por descarte el 4ºA -> 4ºA - Emma y Skinner
+
+**Plantas 2º y 3º sin letras**
+Sólo quedan dos plantas libres (2º y 3º) y Karen menciona que vive debajo de Elon -> Karen vive en un 2º y Elon en un 3º
+Karen vive en la misma planta que una persona con dos gatos, Úrsula tiene 2 gatos y es la única persona con gatos -> Úrsula vive en un 2º
+Karen tiene otro vecino, con un piano y un perro -> El piso vacío es un 3º
+Wendy no tiene perro y no es la persona con gatos (lo es Úrsula) -> No vive en el mismo piso que Karen -> Wendy vive en un tercero
+Por descarte, sólo nos quedan Harry y Marv, ya hemos ubicado a tres vecinos en la planta 3º -> Viven en un 2º
+Eso nos deja lo siguiente:
+2º:
+  Karen y Manuel
+  Úrsula y Mehdi
+  Harry y Marv
+3º:
+  Elon Minsk
+  Piso vacío
+  Wendy y Joeboy
+
+**Letras en el plano**
+Ahora es importante ubicar cada letra sobre el plano de la urbanización:
+Emma vive en el 4ºA, tiene bañera y ventana en la cocina -> Letras A - Sur-este
+El 4ºC pone en el anuncio que tiene 3 habitaciones -> Letras C - Oeste
+Por descarte -> Letras B - Norte
+
+**Letras que faltan**
+Úrsula ve el atardecer desde su ventana -> Apartamento Oeste -> 2ºC
+Elon y Karen viven uno debajo del otro -> No pueden vivir en la letra C -> Ambos en la A o ambos en la B
+Wendy vive en un piso de 2 habitaciones -> Norte o Sur Este -> A o B
+En el piso 3º, si Elon ocupa la letra A Wendy ocupa la B y si Elon ocupa la B Wendy ocupa la A -> El piso vacío es el 3ºC
+
+Es decir, o bien:
+2ºA Karen y Manuel
+2ºB Harry y Marv
+2ºC Úrsula y Mehdi
+3ºA Elon Minsk
+3ºB Wendy y Joeboy
+3ºC Piso vacío
+
+O bien:
+2ºA Harry y Marv
+2ºB Karen y Manuel
+2ºC Úrsula y Mehdi
+3ºA Wendy y Joeboy
+3ºB Elon Minsk
+3ºC Piso vacío
+
+No hay información suficiente para distinguir entre ambos escenarios. Pero llegar a esto es suficiente para responder a las preguntas de seguridad y saber la planta y letra del piso vacío.
+
+
+## Escrituras piso vacío
+
+# TODO
+
+
+## Correo ODO (wendy@odo.com)
+
+# TODO
+
+El indicio de contraseña de este correo es "Las iniciales de mi peluquera".
+Estas podemos encontrarlas en la foto de la peluquería del portal de la urbanización.
